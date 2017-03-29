@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea,th, td { 
+margin: 0;padding: 0;}
+body { font-family:"MicrosoftYaHei"; font-size:62.5%; width:100%; background-color:#eff0f4;}
+input { border:none; color:#e1e5e7; font-size:2rem;}
+ul, ol { list-style: none; }
+
+.header {background-color:#68cdd5; width:100%; height:90px; position:relative; font-size:1.6rem; color:#F7F7F7;}
+.header .btn1 {  position:absolute; line-height:90px; left:4%;}
+.header .btn2 { line-height:90px; text-align:center; } 
+.header .btn3 {  position:absolute; top:32%; right:4%; }
+input {width:100%; height:100px; margin-top:20px; background:#FFFFFF url(images/iphone.png) no-repeat 20px center; text-indent:6rem; outline:none;}
+form span { background:url(images/sep.png) no-repeat; width:10px; height:70px; display:inline-block; position:absolute; top:134px; left:80px;}
+form .locked { background-image:url(images/locked.png);}
+.login { background-color:#68cdd5; width:100%;  height:90px; margin-top:20px; position:relative; font-size:1.6rem; color:#F7F7F7; text-alignL:center; line-height:90px; text-align:center;}
+.forget a { color:#68cdd5; font-size:1rem; float:right; line-height:2rem;}
