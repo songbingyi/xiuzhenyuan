@@ -13,5 +13,5 @@ ul, ol { list-style: none; }
 input {width:100%; height:100px; margin-top:20px; background:#FFFFFF url(images/iphone.png) no-repeat 20px center; text-indent:6rem; outline:none;}
 form span { background:url(images/sep.png) no-repeat; width:10px; height:70px; display:inline-block; position:absolute; top:134px; left:80px;}
 form .locked { background-image:url(images/locked.png);}
-.login { background-color:#68cdd5; width:100%;  height:90px; margin-top:20px; position:relative; font-size:1.6rem; color:#F7F7F7; text-alignL:center; line-height:90px; text-align:center;}
+.login_btn { background:#68cdd5 none;  height:90px; position:relative; font-size:1.6rem; color:#F7F7F7; text-alignL:center; line-height:90px;  text-indent:0;}
 .forget a { color:#68cdd5; font-size:1rem; float:right; line-height:2rem;}
