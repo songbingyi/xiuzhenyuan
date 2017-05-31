@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<meta name="viewport" content="width-device-width,initial-scale=1.0">
+<script src="js/jquery.min.js"></script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<script src="js/bootstrap.min.js"></script>
+<style>
+body { background-color:#f0f0f0;}
+nav { background-color:#29bde0;}
+.row { margin:0 auto;}
+nav span { padding:10px 0; font-size:1.8em; color:#fff; margin-left:15px;}
+
+.last-game { background-color:#fff; margin-top:10px; border:1px #c9c9c9 solid; color:#9a9a9a; height:50px;}
+.last-game i { position:absolute; right:10px; line-height:50px; font-size:1.8em;}
+.last-game p { line-height:50px;}
+
+.mainbody { border:1px #c9c9c9 solid; margin-top:10px; padding:0; background-color:#fff; position:relative;}
+.game-name { border-bottom:1px #F4AB4F solid;}
+.game-name p{ line-height:40px;  color:#fbb435; margin:0;}
+.btn-info { border-radius:0; margin:10px 0; padding:18px 12px;}
+.circle { border-radius:50%; background-color:#c9c9c9; width:16px; height:16px; display:inline-block;}
+.on { background-color:#29bde0;}
+.next-page { width: 0;height: 0;border-top: 13px solid transparent;border-left: 10px solid #fbb435;border-bottom: 13px solid transparent; position:absolute; top:168px; right:0;}
+
+</style>
+
+</head>
+
+<body>
+<nav>
+	<span class="glyphicon glyphicon-align-justify"></span>
+</nav>
+
+<div class="container">
+	<div class="row">
+    	<div class="col-xs-12 last-game">
+        	<p class="text-center">上次游戏：做捉鬼猜词版</p> <i class="glyphicon glyphicon-chevron-right pull-right"></i>
+
+        </div>
+    </div>
+
+    <div class="row">
+    	<div class="col-xs-12 mainbody text-center">
+        	<div class="row">
+            	<div class="col-xs-12 game-name">
+        			<p class="text-center">捉鬼游戏</p>
+                    <i class="next-page"></i>                      
+
+                </div>
+            </div>
+        	<div class="row">
+            	<div class="col-xs-10 col-xs-offset-1">
+        			<button type="button" class="btn btn-info btn-block" onClick="window.location='2.html'">简化版</button>
+                    <p>有1133个用户正在玩这个游戏</p>
+                    <button type="button" class="btn btn-info btn-block" onClick="window.location='2.html'">猜词版</button>
+                    <p>有1133个用户正在玩这个游戏</p>
+                    <button type="button" class="btn btn-info btn-block" onClick="window.location='2.html'">白痴版</button>
+                    <p>有1133个用户正在玩这个游戏</p>
+
+					<i class="circle on"></i>
+                    <i class="circle"></i>
+                    <i class="circle"></i>
+                    <i class="circle"></i>
+                  
+                </div>
+            </div>            
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
